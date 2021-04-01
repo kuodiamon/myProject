@@ -164,6 +164,8 @@ header .navDiv .navigation li a {
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  /* margin: 10px; */
  padding: 10px;
+ max-width: 1000px;
+ margin: 0px auto;
 }
 .allLogoImg div{
     /* border: 1px solid red; */
