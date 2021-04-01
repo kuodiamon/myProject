@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    margin: 0px auto;
+}
+.headerContainer{
+    max-width: 1500px;
+    padding:10px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+
+header .navDiv .navigation {
+    position: relative;
+    display: flex;
+}
+header .navDiv .navigation li {
+    list-style: none;
+    margin-left: 10px;
+    /* font-size: 16px; */
+    font-weight: 500;
+}
+header .navDiv .navigation li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.logoDiv{
+    /* border: 1px solid red; */
+    width: 116px;
+    height: 32px;
+    background-image: url(../img/Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sumbitDiv{
+    margin-right: 15px;
+}
+.menuToggle{
+    display: none;
+}
+.bar{
+    display: none;
+    transition: 0.3s;
+}
+/* imgDiv */
+.imgsection{
+    margin: 0px auto;
+    max-width: 1200px;
+    
+}
+.bg{
+    height: 500px;
+}
+.imgBox{
+    max-width: 1200px;
+    width: 100vw;
+    /* border: 1px solid rebeccapurple; */
+    position: absolute;
+    /* left: 0px; */
+    /* top: 72px; */
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* margin: 0px auto; */
+}
+.imageUrl{
+    position: relative;
+    background-image: url(../img/BG.png);
+    left:0;
+    top: 0;
+    max-width: 1200px;
+    min-height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+.imgText{
+    /* border: 1px solid red; */
+    width: 500px;
+    /* height: 30vh; */
+    position: relative;
+    left: 180px;
+    top: 220px;
+    padding: 10px;
+    color:#fff;
+    font-size: 3em;
+}
+.textBottom{
+    position: absolute;
+    left:0;
+    bottom:0;
+    
+    /* margin-top: 450px; */
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 12vh; */
+    
+}
+.textBottomRwd{
+    position: absolute;
+    left:0;
+    bottom:0;
+    display: none;
+    width: 100%;
+}
+.textBottomRwd .textBottomRwdContain{
+    width: 80vw;
+    margin: 0px auto;
+}
+.textBottomRwd .textBottomRwdContain input{
+    height: 40px;
+    width: 100%;
+}
+.textBottom .serchBar{
+    width: 800px;
+    /* border: 1px solid red; */
+    height: 60px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* color: #fff; */
+    background: #fff;
+    /* border: 1px solid gren; */
+}
+.serchBarButton{
+ /* border: 1px solid gren;  */
+ height: 100%;
+ width: 100%;
+ background: #22B0FC;
+ color:#fff;
+ border: 0px;
+}
+.information{
+    background: #E9F7FE;
+    min-height: 1000px;
+}
+.allLogo{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    top: 300px;
+    /* padding: 200px; */
+}
+.allLogoInformation{
+    /* width: 800px; */
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+.allLogoInformation p{
+   text-align: center;
+}
+.allLogoImg{
+ /* border: 1px solid red; */
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ /* margin: 10px; */
+ padding: 10px;
+}
+.allLogoImg div{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+}
+.allLogoImg div img{
+    width: 120px;
+}
+.informationSection{
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+.informationSectionDiv{
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    width: 800px;
+    display: flex;
+}
+.informationText{
+    /* border: 1px solid red; */
+    width: 400px;
+    font-size: 3em;
+    
+}
+.informationButton{
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.circleBtn{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+.circleBtn .icon{
+    margin: 0px auto;
+    font-size: 18px !important; 
+}
+.infromationAllItem{
+    /* border: 1px solid red; */
+    /* margin: 80px; */
+    max-width: 1200px;
+    margin: 80px auto;
+}
+.infromationItem{
+    /* margin: 80px; */
+    /* margin: 0px auto;
+    display: flex; */
+}
+.infromationItem li{
+    margin-left: 20px;
+    list-style: none;
+    /* width: 200px; */
+    height: 200px;
+    background: #fff;
+    padding: 70px 30px;
+}
+.infromationItem li span{
+    font-size: 30px !important; 
+}
+.infromationItem li p:nth-child(2){
+    font-size: 1.5em;
+}
+.infromationItem li p:nth-child(3){
+    font-size: 0.5em;
+}
+.jobSection{
+    /* height: 900px; */
+    background: #F5FAFD;
+}
+.jobContaine{
+    padding: 100px;
+    /* border: 1px solid red; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.jobContaine .jobDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+.jobContaine .jobDiv .jobText{
+    width: 400px;
+    /* border: 1px solid red; */
+    font-size: 3em;
+}
+.jobContaine .jobDiv button{
+    width: 150px;
+    height: 50px;
+    align-self: flex-end;
+    color: #fff;
+    background: #22B0FC;
+    border: 0px;
+}
+.jobItemConatiner{
+    max-width: 800px;
+    margin: 0px auto;
+}
+.jobContaine .jobItem{
+    /* border: 1px solid red; */
+    /* width: 800px; */
+    margin: 50px auto;
+    padding: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.jobContaine .jobItem .item{
+    width: 230px;
+    height: 230px;
+    background: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.itemheader{
+    padding: 10px ;
+    font-size: 12px !important;
+}
+.itemheader button{
+    margin-left: 10px;
+    width: 68px;
+    height: 30px;
+    background: rgba(15, 188, 73, 0.1);
+    color: #0FBC49;
+    border: 0px;
+}
+.jobItem p{
+    margin: 20px;
+}
+.itemFooter{
+    padding: 10px 0px 0px 20px;
+    display: flex;
+    font-size: 12px !important;
+}
+.itemFooter .icon{
+    font-size: 30px !important;
+    margin-right: 10px;
+}
+.itemFooter .itemFooterDiv p{
+    margin: 0px;
+}
+.itemFooter .itemFooterDiv p:nth-child(1){
+    font-size: 20px;   
+}
+.instantSection{
+    /* height: 600px; */
+}
+.instantContain{
+    max-width: 800px;
+    margin:  80px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.instantImg{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid red; */
+    background-image: url(../img/BG2.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.instantImg img{
+    width: 300px;
+}
+.iconRight{
+    position:relative;
+    right:-20px;
+    top: -10px;
+    font-size: 25px !important;
+    color: rgb(255, 189, 7);
+}
+.instantImgText{
+    position: relative;
+    left: 200px;
+    top: -300px;
+    width: 200px;
+    background: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 61%, 0 87%);
+    /* border: 1px solid red; */
+    height: 150px;
+    /* box-shadow: 10px 5px 5px black; */
+    padding: 10px;
+    font-size: 15px;
+}
+.instantImgText p:nth-child(2){
+    color: rgb(119, 118, 118);
+    font-size: 10px;
+}
+.instantImgText .itemFooter{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    font-size: 12px !important;
+}
+.instantImgText .itemFooter .icon{
+    font-size: 20px !important;
+    margin-right: 5px;
+}
+.instantImgText .itemFooter .itemFooterDiv p{
+    font-size: 12px
+}
+.instantText{
+    width: 400px;
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+.instantText p{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.instantText p:nth-child(1){
+   color: rgb(255, 189, 7);   
+}
+.instantText p:nth-child(2){
+    font-size: 2em;
+}
+.instantTextFooter{
+    margin-top: 100px;
+    font-size: 10px;
+}
+.instantTextFooter .icon{
+    font-size: 10px !important;
+}
+.instantTextFooter button{
+    border: 0px;
+    width: 80px;
+    height: 50px;
+    margin-left: 100px;
+    background: #22B0FC;
+    color: #fff;
+}
+
+.lastSection{
+    /* border: 1px solid red; */
+    /* height: 800px; */
+    background: #E9F7FE;
+}
+.lastSectionContain{
+    max-width: 800px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lastSectioninfoleft{
+    width: 400px;
+    /* border: 1px solid green; */
+    padding: 20px;
+}
+.lastSectioninfoleft h1{
+    font-size: 2.5em;
+}
+.lastSectioninfoRight{
+    width: 400px;
+    padding: 20px;
+}
+.lastSectioninfoRight p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+    color:#8C97AC;
+}
+.card{
+    background: #fff;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+}
+.cardText{
+    padding: 10px 0px 10px 15px;
+}
+.cardTextFooter{
+    font-size: 10px;
+    margin-top: 20px;
+    color:#8C97AC;
+}
+.cardTextFooter .icon{
+    /* margin-left: 10px; */
+    padding: 5px;
+    font-size: 10px !important;
+}
+.footer{
+    border-top: 1px solid #8C97AC;
+    max-width: 800px;
+    margin: 0px auto;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    font-size: 10px;
+    color: #8C97AC;
+}
+.footer .logoWithText{
+    width: 200px;
+    /* border: 1px solid red; */
+}
+.footer .footerItem{
+margin-left: 100px;
+}
+.footer .footerItem ul li{
+    list-style: none;
+    padding: 5px;
+}
+.footer .footerItem ul li:nth-child(1){
+  padding-bottom: 20px;
+  color: #1D293F;
+}
+.footerCopy{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.copyRight span{
+    color: #22B0FC;
+}
+@media(max-width: 768px){
+    .menuToggle{
+        display:block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/menu.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+        transition: 0.5s;
+    }
+    .menuToggle.active{
+        background-image: url(../img/close.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-position: center;
+        background-size: 30px;
+    }
+    .headerContainer{
+        padding: 15px;
+    }
+    .navDiv{
+        display: none;
+    }
+    .sumbitDiv{
+        display: none;
+    }
+    .bar.active{
+        display:inline;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+       
+    }
+    .bar.active li{
+        list-style: none;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-top: #D8D8D8 1px solid;
+      
+        /* border: 1px solid red; */
+    }
+    .bar.active li a{
+        text-decoration: none;
+        color: #111;
+    }
+    .bar button{
+        padding: 10px;
+        font-size: 18px;
+        background: #22B0FC;
+        color: #fff;
+        border: 0;
+    }
+    .imgText {
+        width: auto;
+        left: 0px;
+        top: 0px;
+        padding: 10px;
+    }
+
+     
+    .imgBox{
+        left: 0px;
+        height: 200px;
+        width:100%;
+    }
+    .imageUrl{
+        background-size: cover;
+        background-position:center ;
+        /* min-height: 300px; */
+    }
+    .textBottom{
+        display: none;
+    }
+    .textBottomRwd{
+        display: block;
+    }
+    .serchBarButton{
+        height: 40px;
+        margin-top: 10px;
+    }
+    .information{
+        min-height: 1300px;
+    }
+    .informationSectionDiv{
+        width: auto;
+    }
+    .allLogoImg {
+        /* border: 1px solid red; */
+        display: flex;
+        /* margin: 10px; */
+        padding: 0px;
+        width: auto;
+        flex-wrap: wrap;
+        margin: 0px auto;
+    }
+    .allLogoImg div {
+        text-align: center;
+        width: 150px;
+        margin: 10px auto;
+    }
+    .jobContaine{
+        padding: 50px;
+    }
+    .jobContaine .jobDiv{
+        width: auto;
+    }
+    .jobContaine .jobDiv .jobText{
+        width: 300px;
+        font-size: 2.5em;
+        padding-left: 20px
+    }
+
+    .jobContaine .jobDiv button{
+        display: none;
+    }
+    .jobContaine .jobItem .item {
+        min-width: 230px;
+        margin: 10px;
+        padding: 0px;
+    }
+    .instantContain{
+        padding: 10px;
+    }
+    .instantImg{
+        width: auto;
+        padding: 20px;
+    
+    }
+   .instantImgText{
+    left: 0;
+    top: -100px;
+    padding: 5px;
+   }
+   .iconRight {
+    right: -20px;
+    top: 0px;
+    font-size: 39px !important;
+    }
+    .instantTextFooter button{
+       margin: 20px;
+    }
+    .footer{
+        padding: 0;
+        height: auto;
+        flex-flow:column;
+    }
+    .footer .logoWithText {
+        margin-top: 20px;
+    }
+    .footer .footerItem{
+       margin: 0;
+       padding-top: 10px;
+    }
+    .footerCopy{
+        margin-top: 10px;
+    }
+}
