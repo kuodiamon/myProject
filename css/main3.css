@@ -253,7 +253,7 @@ header .navDiv .navigation li a {
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    /* width: 800px; */
     margin: 0 auto;
 }
 .jobContaine .jobDiv .jobText{
