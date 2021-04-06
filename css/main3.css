@@ -611,7 +611,7 @@ margin-left: 100px;
     }
     .jobContaine .jobItem .item {
         min-width: 230px;
-        margin: 10px;
+        margin: 10px auto;
         padding: 0px;
     }
     .instantContain{
